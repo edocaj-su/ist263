@@ -45,13 +45,12 @@ nav a:hover {background-color: #30475E;}
 .map, .form {flex: 1;
             margin: 10px}
 
-.biopic {max-width: 100%;
-border: 5em;}
+.biopic {max-width: 100%;}
 
 @media only screen and (max-width: 920px) {
     nav a {max-width: 100%;
         display: block;}
     span {display: none}
     nav {padding: 30px;}
-    .indexheader {margin-left: none;}
+    .indexheader {margin-left: -220px;}
 }

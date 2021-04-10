@@ -1,0 +1,55 @@
+body {
+    background-color: #DDDDDD;}
+
+p {
+    color: #222831;}
+
+a:link {
+    color: #30475E;}
+
+h1 {color: #222831;}
+
+nav {
+    background-color: #F05454;
+    padding: 10px;
+    margin-bottom: 30px;
+    }
+nav a {color: #DDDDDD;}
+
+a:visited {color: #30475E;}
+
+nav a:hover {background-color: #30475E;}
+
+.quote {float: right;}
+
+.indexheader {margin-left: 220px;}
+
+.clear {clear:both;}
+
+.address {float:left;}
+
+.part1 {background-color:  #F05454;
+        margin: 20px;
+        margin-bottom: 10px;
+        padding: 30px;
+        border-radius: 1em;}
+
+.part2 {display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        background-color:  #F05454;
+        margin: 30px;
+        padding: 30px;
+        border-radius: 1em;
+        }
+.map, .form {flex: 1;
+            margin: 10px}
+
+.biopic {max-width: 100%;}
+
+@media only screen and (max-width: 920px) {
+    nav a {max-width: 100%;
+        display: block;}
+    span {display: none}
+    nav {padding: 30px;}
+}

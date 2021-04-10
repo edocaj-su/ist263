@@ -46,7 +46,7 @@ nav a:hover {background-color: #30475E;}
             margin: 10px}
 
 .biopic {max-width: 100%;
-border: 1em;}
+border: 5em;}
 
 @media only screen and (max-width: 920px) {
     nav a {max-width: 100%;

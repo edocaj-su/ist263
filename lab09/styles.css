@@ -52,4 +52,5 @@ nav a:hover {background-color: #30475E;}
         display: block;}
     span {display: none}
     nav {padding: 30px;}
+    .indexheader {margin-left: 0px;}
 }

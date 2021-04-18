@@ -53,14 +53,3 @@ nav a:hover {background-color: #30475E;}
     span {display: none}
     nav {padding: 30px;}
 }
-#skip {
-    position: absolute;
-    left: -999px;
-    background-color: white;
-    border: 1px solid black;
-}
-
-#skip:focus {
-    position: absolute;
-    left: 10px;
-}

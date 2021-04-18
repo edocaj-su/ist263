@@ -5,7 +5,7 @@ p {
     color: #222831;}
 
 a:link {
-    color: #30475E;}
+    color: #222831;}
 
 h1 {color: #222831;}
 
@@ -14,11 +14,11 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
     }
-nav a {color: #000;}
+nav a {color: #222831;}
 
 a:visited {color: #30475E;}
 
-nav a:hover {background-color: #30475E;}
+nav a:hover {background-color: #FFFFFF;}
 
 .quote {float: right;}
 

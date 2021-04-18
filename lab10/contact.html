@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html" tabindex="1">Home</a> <span>|</span>
+            <a href="contact.html" tabindex="2">Contact</a><span>|</span>
+            <a href="skills.html" tabindex="3">Skills</a>
+        </nav> 
+
+        <a href="#maincontact" id="skip">Skip to Content</a>
+
+        <header>
+            <h1>Contacts</h1>
+
+            <h2>Ernik Docaj</h2>
+
+            <div class="part1">
+                <div class="address">
+                <p>
+                    Syracuse University Ischool<br>
+                    343 Hinds Hall,<br>
+                    Syracuse, NY 13210<br>
+                </p>
+                </div>
+
+                <div class="emailandlink">
+                    <a href="https://www.linkedin.com/in/ernikdocaj/">My LinkedIn Profile<img src="../images/logo-sized.png" alt="LinkedIn Logo"></a><br>
+                    <a href="mailto:edocaj@syr.edu">Ernik Docaj's Email</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="clear"></div>
+
+        <a id="maincontact"></a>
+
+        <main>
+            <div class="part2">
+                <div class="form">
+                    <form action="mailto:edocaj@syr.edu" method="POST">
+                        <p>Seeking to Contact the page's creator? Please complete and submit the form below.</p>
+                        <label for="name">Full name:</label>
+                        <input type="text" name="name" id="name">
+                        <br>
+
+                        <label for="body">Reason for contacting:</label><br>
+                        <textarea name="body" id="body" rows="20" cols="100"> What do you want? </textarea><br>
+
+                        <label for="business">Is this a business enquiry?</label>
+                        <input type="checkbox" name="business" id="business" value="Yes"><br>
+
+                        <input type="submit" value="Send Email">
+                    </form>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.1526945832416!2d-76.1355650845221!3d43.03821867914717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fca155555%3A0xc1c69e4f641652c1!2sSyracuse%20University%20iSchool!5e0!3m2!1sen!2sus!4v1614454166068!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </div>
+        </main>
+    </body>
+</html>

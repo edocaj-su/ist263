@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>P11</title>
+        <script>
+            function LeftForm() {
+                alert('You left this form element');
+                document.getElementById("message").innerHTML = "you left this form element"
+            }
+        </script>
+    </head>
+    <body>
+        <form action="" method="POST" >
+            <label for="first">First</label>
+            <input type="text" name="first" id="first" onblur="LeftForm();">
+            <label for="last">Last</label>
+            <input type="text" name="last" id="last" onblur="LeftForm();">
+            <input type="submit">
+        </form>
+        <div id="message"></div> <!-- this is where I'm gonna bring up the message-->
+    </body>
+</html>

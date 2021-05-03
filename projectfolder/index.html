@@ -3,39 +3,90 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Parts Unknow - Home</title>
-
+        <title>Parts Unknown - Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            function PicturesOff() {
+                document.getElementById('homecovid').style.display = 'none';
+                document.getElementById('homecuba').style.display = 'none';
+                document.getElementById('homehong').style.display = 'none';
+                document.getElementById('homecovidp').style.display = 'none';
+                document.getElementById('homecubap').style.display = 'none';
+                document.getElementById('homehongp').style.display = 'none';
+            }
+            function CovidOn() {
+                document.getElementById('homecovid').style.display = 'block';
+                document.getElementById('homecovidp').style.display = 'block';
+            }
+            function CubaOn() {
+                document.getElementById('homecuba').style.display = 'block';
+                document.getElementById('homecubap').style.display = 'block';
+            }
+            function HongOn() {
+                document.getElementById('homehong').style.display = 'block';
+                document.getElementById('homehongp').style.display = 'block';
+            }
+        </script>
     </head>
 
     <body>
         <header>
             <nav>
-                <a href="index.html" tabindex="1"><strong>Home</strong></a> <span>|</span>
-                <a href="covid.html" tabindex="2"><strong>Covid Travel Guidelines</strong></a><span>|</span>
-                <a href="hk.html" tabindex="3"><strong>Hong Kong</strong></a><span>|</span>
-                <a href="cuba.html" tabindex="4"><strong>Cuba</strong></a>
-                <input type="text" placeholder="Search..">
+                    <a href="index.html" tabindex="2"><strong>HOME</strong></a> <span>|</span>
+                    <a href="covid.html" tabindex="3"><strong>COVID TRAVEL GUIDELINES</strong></a> <span>|</span>
+                    <a href="hk.html" tabindex="4"><strong>HONG KONG</strong></a> <span>|</span>
+                    <a href="cuba.html" tabindex="5"><strong>CUBA</strong></a>
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                </div>
             </nav>
         </header>
 
-        <h1>Parts Unknow</h1>
+        <a href="#maincontent" id="skip" tabindex="1">Skip to Content</a>
+
+        <div id="title">
+        <h1>PARTS UNKNOWN</h1>
+        </div>
+
+        <a id="maincontent"></a>
 
         <main>
-            <!-- This will be a slide show and breif description of each post available on the site-->
-            <img src="projectimages/covidpic4.jpg" alt="a women sitting on her luggage at the airport during the Covid pandemic">
-            <img src="projectimages/cubapic3.JPG" alt="classic cars with fresh and colorful paintjobs parked outside a colonial building in Havana">
-            <img src="projectimages/hk-bg.jpg" alt="The Hong Kong island skyline at night">
-                <p>
-                    Traveling has never been harder and we at Parts Unknow feel its our duty as a travel site to inform you how best to deal with the current pandemic and its restricts without having to give up something we all love. Staying up to date on the regulations and restrictions can save you a ton of headache and ensure that your traveling safely.
-                </p>
+            
+            <div id="homepageimage">
+                <img src="projectimages/covidpic4.jpg" alt="a women sitting on her luggage at the airport during the Covid pandemic" id="homecovid">
+                <img src="projectimages/cubapic3.JPG" alt="classic cars with fresh and colorful paintjobs parked outside a colonial building in Havana" id="homecuba">
+                <img src="projectimages/hk-bg.jpg" alt="The Hong Kong island skyline at night" id="homehong">
+            </div>
 
-                <p>
-                    Cuba has long been cut off from the rest of the world as strict US embargos and its location have isolated the nation. Now once again open to Americans, a trip to Cuba is like a taking a step into the past. Havanna is a beautiful city with a long history which is all on display in its streets. Learn more about the expirence that is a trip to Cuba in our post!
-                </p>
+            <div id="slideshowthumbnails">
+                <img src="projectimages/covidpic4.jpg" alt="a women sitting on her luggage at the airport during the Covid pandemic" id="tinycovid" onclick="PicturesOff(); CovidOn();">
+                <img src="projectimages/cubapic3.JPG" alt="classic cars with fresh and colorful paintjobs parked outside a colonial building in Havana" id="tinycuba"  onclick="PicturesOff(); CubaOn();">
+                <img src="projectimages/hk-bg.jpg" alt="The Hong Kong island skyline at night" id="tinyhong" onclick="PicturesOff(); HongOn();">
+            </div>
 
-                <p>
-                    Asia World City, Hong Kong is one of the worlds most visited tourist destinations and for good reason. Learn more about the must see attractions and the hidden gems that are located off the beaten track in our post about Hong Kong!
-                </p>
+            <div id="covidp">
+                <div id="homecovidp">
+                    <h2>Covid Travel Guidelines</h2>
+                    <p >
+                        Traveling has never been harder and we at Parts Unknow feel its our duty as a travel site to inform you how best to deal with the current pandemic and its restricts without having to give up something we all love. Staying up to date on the regulations and restrictions can save you a ton of headache and ensure that your traveling safely.
+                    </p>
+                </div>
+                
+                <div id="homecubap">
+                    <h2>Cuba</h2>
+                    <p >
+                        Cuba has long been cut off from the rest of the world as strict US embargos and its location have isolated the nation. Now once again open to Americans, a trip to Cuba is like a taking a step into the past. Havanna is a beautiful city with a long history which is all on display in its streets. Learn more about the expirence that is a trip to Cuba in our post!
+                    </p>
+                </div>
+                
+                <div id="homehongp">
+                    <h2>Hong Kong</h2>
+                    <p >
+                        Asia's World City, Hong Kong is one of the worlds most visited tourist destinations and for good reason. Learn more about the must see attractions and the hidden gems that are located off the beaten track in our post about Hong Kong!
+                    </p>
+                </div>
+                
+            </div>
         </main>
     </body>
 </html>

@@ -11,12 +11,16 @@ h1 {
 h2 {
     color: #aaaaaa;
 }
+h1 h2 {
+    font-family: 'Alfa Slab One', cursive;font-family: 'Alfa Slab One', cursive;
+    
+}
 body {
     background-color: #142030;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 p {
     color: #fefefe;
+    font-family: 'Lato', sans-serif;
 }
 #skip {
     position: absolute;

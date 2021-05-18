@@ -43,9 +43,6 @@ p {
     max-height: 65%;
     border: 4px solid #fefefe;
 }
-.search {
-    float: right;
-}
 #slideshowthumbnails {
     margin-left: auto; 
     text-align: center;

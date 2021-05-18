@@ -7,6 +7,7 @@ header {
 }
 h1 {
     color: #aaaaaa;
+    padding-top: 25px;
 }
 h2 {
     color: #aaaaaa;
@@ -74,4 +75,87 @@ a {
 }
 a:visited {
     color: #142030;
+}
+.hkbody {
+    background-image: url('https://edocaj-su.github.io/ist263/projectimages/hk-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.cubabody {
+    background-image: url('https://edocaj-su.github.io/ist263/projectimages/cubapic1.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.covidbody {
+    background-image: url('https://edocaj-su.github.io/ist263/projectimages/covidpic1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.covidtext {
+    text-align: center;
+    background-color: rgba(20, 32, 48, 0.9);
+    max-width:  100%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.covidtext img {
+    max-width: 65%;
+    border: 4px solid #fefefe;
+}
+.covidtext p {
+    padding: 20px;
+}
+.covidtext ul {
+    color: #fefefe;
+    max-width: 100%;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.covidtext a {
+    color: #fefefe;
+}
+.cubatext {
+    text-align: center;
+    background-color: rgba(20, 32, 48, 0.9);
+    max-width:  100%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.cubatext img {
+    max-width: 65%;
+    border: 4px solid #fefefe;
+    margin: 5px;
+}
+.cubatext p {
+    padding: 20px;
+}
+.cubatext ul {
+    color: #fefefe;
+    max-width: 100%;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.hktext {
+    text-align: center;
+    background-color: rgba(20, 32, 48, 0.9);
+    max-width:  100%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.hktext img {
+    max-width: 65%;
+    border: 4px solid #fefefe;
+    margin: 5px;
+}
+.hktext p {
+    padding: 20px;
+}
+.hktext ul {
+    color: #fefefe;
+    max-width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
 }
